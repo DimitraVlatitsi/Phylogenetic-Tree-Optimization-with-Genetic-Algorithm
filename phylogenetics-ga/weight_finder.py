@@ -26,7 +26,7 @@ n_taxa, n_sites = aln.shape
 # =========================================================
 # 3) Φόρτωση reference tree (UNROOTED)
 # =========================================================
-ref_tree = Tree("reference.tre", format=1)
+ref_tree = Tree("reference_tree.nwk", format=1)
 ref_tree.unroot()
 
 # =========================================================
